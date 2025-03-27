@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contaianer-image {
+    margin-top: 20px;
+}
+
+#image-clip {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dom {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.dom h3 {
+    color: #444;
+}
+
+#dom-page {
+    font-size: 18px;
+    color: #555;
+}
+
+.country-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.country-list li {
+    background: #ddd;
+    margin: 5px auto;
+    padding: 10px;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #555;
+}
